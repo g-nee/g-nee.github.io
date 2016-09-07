@@ -321,6 +321,18 @@ section.cta .cta-content h2 {
     font-size: 80px;
   }
 }
+section.cta .cta-content h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  max-width: 450px;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  section.cta .cta-content h3 {
+    font-size: 24px;
+  }
+}
 section.cta .overlay {
   height: 100%;
   width: 100%;
@@ -330,10 +342,12 @@ section.cta .overlay {
   left: 0;
 }
 #about {
-  height: 700px;  
-  background: #ff751a;
-  background: -webkit-linear-gradient(#ff8533, #ff751a);
-  background: linear-gradient(#ff8533, #ff751a);
+  /*height: 700px;  */
+  /*background: #ff751a;*/
+  color: #333;
+  background: #fff;
+  /*background: -webkit-linear-gradient(#ff8533, #ff751a);
+  background: linear-gradient(#ff8533, #ff751a);*/
 }
 .wrapping {
 	width: 50%;
@@ -347,10 +361,12 @@ section.contact {
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
-  color: #a3a3c2;
+  /*color: #a3a3c2;*/
+  color: #fff;
 }
 section.contact h3 {
-	color: #a3a3c2;
+	/*color: #a3a3c2;*/
+  color: #fff;
 }
 section.contact h2 i {
   color: #dd4b39;
@@ -409,9 +425,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #1a8cff;
+  /*background: #1a8cff;
   background: -webkit-linear-gradient(#1a8cff, #0066cc);
-  background: linear-gradient(#1a8cff, #0066cc);
+  background: linear-gradient(#1a8cff, #0066cc);*/
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
 }
 .bg-primary2 {
   background-color: white;
